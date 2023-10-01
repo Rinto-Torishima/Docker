@@ -21,7 +21,6 @@ cp .env.exmaple .env
 * .envファイルを編集
 
 DB_HOST=laravel_db  
-
 //docker-compose.ymlの定義に合わせる。
 
 DB_DATABASE=laravel_db 
