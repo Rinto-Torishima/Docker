@@ -4,7 +4,7 @@
 ## git cloneした際の環境構築方法
 * docker-compose.ymlを置いたディレクトリに移動
 * Docker 起動
-* 
+
 docker-compose up -d
 * appコンテナ（名称：laravel_app）に入ります
 winpty docker-compose exec app bash
