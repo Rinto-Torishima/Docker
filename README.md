@@ -20,13 +20,21 @@ chmod 777 -R storage/
 cp .env.exmaple .env
 * .envファイルを編集
 
-DB_HOST=laravel_db  //docker-compose.ymlの定義に合わせる。
+DB_HOST=laravel_db  
 
-DB_DATABASE=laravel_db //docker-compose.ymlのmysql.environment.MYSQL_DATABASEの値を設定
+//docker-compose.ymlの定義に合わせる。
 
-DB_USERNAME=laravel_user //docker-compose.ymlのmysql.environment.MYSQL_USERの値を設定
+DB_DATABASE=laravel_db 
 
-DB_PASSWORD=laravel_pass //docker-compose.ymlのmysql.environment.MYSQL_PASSWORDの値を設定
+//docker-compose.ymlのmysql.environment.MYSQL_DATABASEの値を設定
+
+DB_USERNAME=laravel_user 
+
+//docker-compose.ymlのmysql.environment.MYSQL_USERの値を設定
+
+DB_PASSWORD=laravel_pass 
+
+//docker-compose.ymlのmysql.environment.MYSQL_PASSWORDの値を設定
 * Composerのパッケージのインストール
 
 composer install
