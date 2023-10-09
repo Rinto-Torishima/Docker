@@ -39,19 +39,19 @@ cp .env.exmaple .env
 ```
 DB_HOST=laravel_db
 ```
-//docker-compose.ymlの定義に合わせる。
+#docker-compose.ymlの定義に合わせる。
 ```
 DB_DATABASE=laravel_db
 ```
-//docker-compose.ymlのmysql.environment.MYSQL_DATABASEの値を設定
+#docker-compose.ymlのmysql.environment.MYSQL_DATABASEの値を設定
 ```
 DB_USERNAME=laravel_user
 ```
-//docker-compose.ymlのmysql.environment.MYSQL_USERの値を設定
+#docker-compose.ymlのmysql.environment.MYSQL_USERの値を設定
 ```
 DB_PASSWORD=laravel_pass
 ```
-//docker-compose.ymlのmysql.environment.MYSQL_PASSWORDの値を設定
+#docker-compose.ymlのmysql.environment.MYSQL_PASSWORDの値を設定
 
 * Composerのパッケージのインストール
 ```
@@ -77,4 +77,4 @@ npm run dev
 ```
 http://localhost
 ```
-//初期画面が表示されたらOKです
+#初期画面が表示されたらOKです
