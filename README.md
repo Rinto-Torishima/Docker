@@ -11,6 +11,10 @@ git clone  https://github.com/Rinto-Torishima/Docker
 ```
 cd docker/sns
 ```
+* Dockerイメージを作成
+```
+docker-compose build
+```
 * Docker 起動
 ```
 docker-compose up -d
